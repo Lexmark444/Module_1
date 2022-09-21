@@ -1,0 +1,257 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.TITLE {
+    font-size: larger;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 64, 218);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 11.5em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 4.5em;
+    text-shadow: -1px 1px 2px #000
+                  1px 1px 0px #000
+                  1px -1px 0px #000
+                 -1px -1px 0px #000                
+}
+
+.artists-header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(255, 255, 255,0.55) 40%);
+    align-items: flex-end;
+}
+
+
+.local-concerts {
+    color: black;
+    margin-top: 0px;
+}
+
+.concert-container {
+    background-color: rgba(255, 255, 255, 0.55);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    flex-direction:column
+
+}
+
+.month {
+    border: 1px solid black;
+    background-color: grey;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.showinfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;    
+}
+
+.image {
+    display: flex;
+    justify-content: left;
+    height: 200px;
+    padding: 10px;
+}
+
+.showinfotext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.readmore {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 10%;
+
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+button:hover {
+    color:fuchsia;
+}
+
+.line {  
+    border: none; 
+    border-bottom: 1px solid gainsboro;  
+   }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo, .footshows, .social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+
+.foothead{
+    font-size: 2em;
+
+}
+
+.tiny {
+    margin: 3px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
